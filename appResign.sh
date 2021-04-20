@@ -62,6 +62,5 @@ done
 fi
 
 #yololib修改MachO文件
-./yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/libHPDylibHook.dylib"
-
-#./yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/HPHook.framework/HPHook"
+#./yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/libHPDylibHook.dylib"
+./yololib "$TARGET_APP_PATH/$APP_BINARY" "Frameworks/HPHook.framework/HPHook"
