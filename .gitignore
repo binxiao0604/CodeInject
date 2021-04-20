@@ -1,0 +1,13 @@
+.DS_Store
+# Xcode
+build/*
+xcuserdata
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+Pods
+xcshareddata
+Temp/*
+tools/*
+APP/*
